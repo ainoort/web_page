@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Personal Website</title>
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-jWJL9YHrD7euY5p47Wmn9Z4Bc7N4H7X4ld7rGgdyhB0AvmE9fV1WJGXkvK6KgqVas6c3QaOkvtiP1CpDvU2Gqg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<meta charset="UTF-8">
+	<style>
+	           p  {
+    font-family: 'Comme'; /* This is a handwritten font */
+    line-height: 1.5; /* This is the line spacing between the lines of the paragraph */
+    /*font-size: 20px; /* This is the font size in pixels */
+  }
+		body {
+			background-color: black;
+			color: white;
+		}
+		h1, h2, h3 {
+			text-align: center;
+		}
+		.container {
+			margin: 0 auto;
+			max-width: 800px;
+			padding: 20px;
+		}
+		nav {
+			text-align: center;
+		}
+		nav ul {
+			display: inline-block;
+			margin: 0;
+			padding: 0;
+		}
+		nav li {
+			display: inline-block;
+			margin: 0;
+			padding: 0;
+		}
+		nav a {
+			display: inline-block;
+			margin: 0 10px;
+			padding: 10px 20px;
+			text-decoration: none;
+			background-color: white;
+			color: black;
+			border-radius: 5px;
+		}
+		section {
+			display: none;
+		}
+		  #about em {
+                    font-style: italic; /* This applies italic styling to the <em> element */
+               }
+                 #about bf {
+                    font-size: 30px /* This applies italic styling to the <em> element */
+               }
+
+	</style>
+</head>
+<body>
+<div style="text-align: center;">
+  <img src="/home/ainoor/Desktop/pic/IMG.jpg" alt="My Photo"style="max-width: 12%; height: auto; border-radius: 50%;">
+</div>
+	<div class="container">
+		
+		<h1>Ainoor Teimoorzadeh</h1>
+		<nav>
+			<ul>
+				<li><a href="#" id="about-link">About Me</a></li>
+				<li><a href="#" id="education-link">Education</a></li>
+				<li><a href="#" id="Publications-link">Publications</a></li>
+			</ul>
+		</nav>
+		<section id="about">
+			<h2> <em> About Me </em>  </h2>
+			<p> <em>I am broadly interested in the intersection of Control theory and Robotics. I have a
+dual M.Sc. degree in Control Engineering and Mechatronics Engineering both from
+Tabriz, Iran. Much of my M.Sc. thesis is focused on Port-Hamiltonian systems and
+<em>IDA-PBC</em> which is done in University of Naples, Federico II. Importantly, I largely
+focus on Robust Control and Disturbance Attuniation. </em><br><br><br>
+
+<a href="mailto:ainoor.teimoorzadeh@tum.de"><i class="far fa-envelope fa-2x" style="color: Gray;"></i> </a>   <br>
+ <a href="https://www.researchgate.net/profile/Ainoor-Teimoorzadeh-2" target="_blank"><i class="fab fa-researchgate fa-2x" style="color: Gray;"></i></a>  <br>
+ <a href=" https://github.com/prisma-lab/WBC-quadruped-DOB" target="_blank"><i class="fab fa-github fa-2x"style="color: Gray;"></i></a>
+
+</p>
+		</section>
+		<section id="education">
+			<h2> <em> Education </em></h2>
+			<p>
+			 <p style="font-size: 20px;">MS.c. in Control Engineering  </p> 
+			  <p style="font-size:12px;">University of Naples, Federico II – Naples, Italy </p> 
+			   <p style="font-size: 12px;">Sahand University of Technology – Tabriz, Iran </p> 
+                         <br>  
+                         <em>  Thesis: </em>  
+                         <p style="font-size:15px;"> Design Of a Robust Passivity Based Controller for a Non-prehensile Control Manipulation</p> 
+                         <em> Supervisor: Professor. Fabio Ruggiero  </em> 
+                           <br>          <br>          <br>
+                        <p style="font-size: 20px;"> MS.c. in Mechatronics Engineering    </p> 
+                              <p style="font-size:12px;"> Tabriz University - Tabriz, Iran </p>      
+                              <em>     Thesis:    </em>  
+                        <p style="font-size:15px;"> Neural Network Based Face detection using Imperialist Competitive Algorithm In Color Images</p>                    
+                       <br>          <br>          <br>
+                       
+                       <p style="font-size: 20px;">  BS.c in Electrical and Electronics Engineering   </p>    
+               </section>
+		<section id="Publications">
+			<h2><em>Publications</em> </h2>
+			<p> 
+			 <a href="https://scholar.google.com/citations?user=gPk-rIIAAAAJ&hl=en">google scholar</a> <br>  
+			 <br> 
+                         <br> 
+                         <p style="font-size: 20px;">Robust  energy  shaping  for  mechanical  systems  with  generalized dissipative forces </p> 
+                          <em>Ainoor Teimoorzadeh  </em>, Alejandro Donaire, Pierluigi Arpenti, Fabio Ruggiero.  
+                          <p style="font-size: 15px;"> European Control Conference 2022, London, UK  </p>  <br> 
+  
+                         
+                          <p style="font-size: 20px;"> Whole-body control with disturbance rejection through a momentum-based observer for quadruped robots  </p> 
+                         Viviana Morlando, <em>Ainoor Teimoorzadeh </em>, Fabio Ruggiero.   <br> 
+                          <p style="font-size: 15px;">    Journal of Mechanism and Machine Theory, 2021 </p>  
+                         <a href="https://youtube.com/watch?v=styHnKxOot8">video available at</a>
+                         <br> 
+                         <br> 
+		</section>
+	</div>
+	
+	<script>
+           var aboutLink = document.getElementById("about-link");
+ 	   var educationLink = document.getElementById("education-link");
+ 	   var PublicationsLink = document.getElementById("Publications-link");
+ 	   var aboutSection = document.getElementById("about");
+ 	   var educationSection = document.getElementById("education");
+	   var PublicationsSection = document.getElementById("Publications");
+
+ 	 aboutLink.addEventListener("click", function() {
+ 	   aboutSection.style.display = "block";
+  	  educationSection.style.display = "none";
+ 	   PublicationsSection.style.display = "none";
+ 	 });
+
+ 	 educationLink.addEventListener("click", function() {
+ 	   aboutSection.style.display = "none";
+ 	   educationSection.style.display = "block";
+   	 PublicationsSection.style.display = "none";
+ 	 });
+
+ 	 PublicationsLink.addEventListener("click", function() {
+ 	   aboutSection.style.display = "none";
+ 	   educationSection.style.display = "none";
+ 	   PublicationsSection.style.display = "block";
+ 	 });
+	</script>
+
+
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
